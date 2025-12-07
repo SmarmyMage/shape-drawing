@@ -57,17 +57,7 @@ class Rectangle extends Shape {
 
 
 
-/* 
-/* Hint: The ShapeManager class manages different types 
-/* of shapes as instances of the Shape class, demonstrating polymorphism.
-*/
-// TODO: Create the ShapeManager class to manage shapes
 class ShapeManager {
-/* Hint: The ShapeManager class must include the following:
-   - A constructor to initialize an empty array for storing shapes.
-   - The addShape method to add new shapes to the array and call updateShapeContainer.
-   - The updateShapeContainer method to update the UI by rendering each shape in the array.
-*/
     constructor() {
         this.shapes = [];
     }
@@ -121,6 +111,3 @@ document.getElementById('addShapeForm').addEventListener('submit', function(even
     document.getElementById('shapeType').value = 'circle';
     document.getElementById('color').value = '#000000';
 });
-
-// Final Hint: As you complete each TODO, test your code by adding some shapes through the form.
-// Use console.log statements to help debug and ensure that each part of your code is working correctly.
